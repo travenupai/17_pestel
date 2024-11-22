@@ -1,4 +1,4 @@
-from crewai import LLM
+"""from crewai import LLM
 
 class MyLLM():
     
@@ -10,4 +10,4 @@ class MyLLM():
     gpt4o 					= LLM(model="gpt-4o")
     gpt_o1 					= LLM(model="o1-preview")
     gpt_o1_mini 			= LLM(model="o1-mini")
-    Ollama_llama_3_1 		= LLM(model="ollama/llama3.1", base_url="http://localhost:1140/openai-8B")
+    Ollama_llama_3_1 		= LLM(model="ollama/llama3.1", base_url="http://localhost:1140/openai-8B")"""
