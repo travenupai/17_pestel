@@ -1,0 +1,99 @@
+political_analysis:
+  description: >
+    Como analista político, sua tarefa é realizar uma análise completa dos fatores políticos que 
+    influenciam o setor da empresa do site {site_url}. Você deve identificar regulamentações, políticas fiscais, 
+    tratados e embargos que possam impactar o ambiente de negócios. Utilize o site da empresa 
+    e fontes externas confiáveis para entender como políticas governamentais e relações 
+    internacionais afetam o setor. Busque dados sobre possíveis mudanças em leis e analise como 
+    elas podem influenciar a empresa do site {site_url}, fornecendo uma visão detalhada sobre o cenário político 
+    e como ele pode evoluir nos próximos anos.
+  expected_output: >
+    Um relatório que deve ter em seu total pelo menos 2000 palavras que detalha os fatores políticos relevantes que afetam a empresa do site {site_url}. 
+    O relatório deve incluir um resumo das políticas governamentais específicas, tratados 
+    internacionais e sanções que podem impactar a organização. Além disso, ele deve explorar 
+    possíveis cenários futuros e fornecer recomendações sobre como a empresa pode se adaptar 
+    para mitigar riscos e aproveitar oportunidades políticas.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: political_agent
+
+economic_analysis:
+  description: >
+    Sua tarefa é realizar uma análise econômica que identifique e descreva as variáveis econômicas 
+    que afetam o setor da empresa do site {site_url}. Avalie como fatores como inflação, taxas de juros, câmbio e 
+    crescimento econômico influenciam as operações e o potencial de crescimento da empresa. 
+    A análise deve incluir tanto o cenário econômico local quanto o global, com foco em tendências 
+    econômicas que possam representar riscos ou oportunidades. Utilize o site da empresa {site_url} para obter 
+    informações financeiras e complementá-las com dados de fontes confiáveis.
+  expected_output: >
+    Um relatório que deve ter em seu total 5000 palavras detalhando os principais fatores econômicos que impactam o setor 
+    da empresa do site {site_url}. O relatório deve apresentar uma análise sobre o impacto de variáveis econômicas 
+    como inflação e câmbio, além de oferecer previsões que ajudem a empresa a tomar decisões 
+    estratégicas. As recomendações devem incluir estratégias para adaptação a 
+    variáveis e cenários econômicos adversos.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: economic_agent
+
+social_analysis:
+  description: >
+    Realize uma análise social aprofundada das tendências culturais e demográficas que afetam a 
+    empresa do site {site_url}. Identifique como mudanças nas preferências dos consumidores, atitudes culturais e 
+    questões demográficas impactam as operações e o marketing. Utilizando o site da empresa {site_url} e 
+    fontes externas, explore como a empresa pode se alinhar às demandas sociais e adaptar suas 
+    práticas para fortalecer seu relacionamento com o público.
+  expected_output: >
+    Um relatório que deve ter em seu total pelo menos 3000 palavras que explore o impacto das tendências sociais no setor da empresa do site {site_url}. 
+    Inclua insights sobre como a empresa pode se adaptar para responder às expectativas do público 
+    e explorar novas oportunidades de mercado. O relatório deve propor práticas que ajudem a 
+    empresa a se conectar com seu público de forma significativa.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: social_agent
+
+technological_analysis:
+  description: >
+    Conduza uma análise detalhada das tendências tecnológicas que afetam o setor da empresa do site {site_url}. 
+    Investigue como inovações, como automação e IA, estão transformando o ambiente de negócios e 
+    identifique ameaças e oportunidades tecnológicas. Consulte fontes confiáveis e explore o 
+    site da empresa para entender como ela pode adotar novas tecnologias para 
+    melhorar sua competitividade.
+  expected_output: >
+    Um relatório que deve ter em seu total pelo menos 4200 palavras que descreva as principais oportunidades e ameaças tecnológicas 
+    para a empresa. Inclua exemplos de tecnologias específicas que podem impactar o setor e 
+    ofereça sugestões de como a empresa pode integrá-las para otimizar suas operações.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: technological_agent
+
+environmental_analysis:
+  description: >
+    Avalie o impacto ambiental das operações da empresa do site {site_url} e identifique oportunidades para melhorar
+    sua sustentabilidade. Considere regulamentações ambientais, práticas de sustentabilidade e 
+    riscos ecológicos. Analise como a empresa lida com poluição, uso de recursos e mudanças climáticas.
+  expected_output: >
+    Um relatório que deve ter em seu total pelo menos 5000 palavras sobre os riscos e oportunidades ambientais para a empresa do site {site_url}, 
+    incluindo práticas de sustentabilidade recomendadas.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: environmental_agent
+
+
+legal_analysis:
+  description: >
+    Realize uma análise legal para identificar as regulamentações e leis relevantes para a empresa do site {site_url},
+    considerando possíveis riscos e exigências de conformidade. O agente deve investigar 
+    regulamentações legais que possam impactar a empresa do site {site_url}, incluindo leis trabalhistas, normas de 
+    segurança e proteção de dados. A tarefa é essencial para garantir que a empresa esteja ciente 
+    de suas obrigações e preparada para atender a todas as exigências regulatórias em seu setor de 
+    atuação. Além disso, o agente deve avaliar como futuras mudanças legais podem afetar a 
+    estratégia e as operações da empresa.
+  expected_output: >
+    Um relatório que deve ter em seu total pelo menos 3000 palavras que detalha as principais implicações legais para a empresa, 
+    abordando possíveis riscos de conformidade e oportunidades para a empresa se posicionar de 
+    maneira proativa. O relatório deve incluir uma análise de regulamentações específicas, como 
+    leis de proteção de dados ou normas de segurança, e sugerir recomendações para mitigar riscos 
+    e garantir que a empresa esteja alinhada com as melhores práticas legais.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas como "‘‘‘ markdown " e "'''". """ ,
+    O arquivo markdown a ser entregue deve ter o nome do agente responsável por realizar a tarefa.,
+  agent: legal_agent

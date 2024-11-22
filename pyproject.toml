@@ -1,0 +1,23 @@
+[project]
+name = "vidmarpestel"
+version = "0.1.0"
+description = "vidmarpestel using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.76.9,<1.0.0",
+    "docx>=0.2.4",
+    "streamlit>=1.40.1",
+    "pysqlite3==0.5.4"  # Adicione esta dependência
+]
+
+[project.scripts]
+vidmarpestel = "vidmarpestel.main:run"
+run_crew = "vidmarpestel.main:run"
+train = "vidmarpestel.main:train"
+replay = "vidmarpestel.main:replay"
+test = "vidmarpestel.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

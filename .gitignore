@@ -1,0 +1,11 @@
+.env
+__pycache__/
+.venv
+social_agent.md
+technological_agent.md
+legal_agent.md
+political_agent.md
+uv.lock
+economic_agent.md
+environmental_agent.md
+uv.lock
