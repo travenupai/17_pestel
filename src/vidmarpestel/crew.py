@@ -122,7 +122,7 @@ class VidmarpestelCrew():
 		return Task(
 			config=self.tasks_config['economic_analysis'],
    			output_file='economic_agent.md',
-			guardrails=[{"output_format": "markdown"}, {"max_length": 20000}]
+			guardrails=[{"output_format": "markdown"}, {"max_length": 10000}]
 		)
 
 	@task
@@ -130,7 +130,7 @@ class VidmarpestelCrew():
 		return Task(
 			config=self.tasks_config['social_analysis'],
    			output_file='social_agent.md',
-			guardrails=[{"output_format": "markdown"}, {"max_length": 20000}]
+			guardrails=[{"output_format": "markdown"}, {"max_length": 10000}]
 		)
   
 	@task
@@ -138,7 +138,7 @@ class VidmarpestelCrew():
 		return Task(
 			config=self.tasks_config['technological_analysis'],
    			output_file='technological_agent.md',
-			guardrails=[{"output_format": "markdown"}, {"max_length": 20000}]
+			guardrails=[{"output_format": "markdown"}, {"max_length": 10000}]
 		)
   
 	@task
@@ -146,7 +146,7 @@ class VidmarpestelCrew():
 		return Task(
 			config=self.tasks_config['environmental_analysis'],
    			output_file='environmental_agent.md',
-			guardrails=[{"output_format": "markdown"}, {"max_length": 20000}]
+			guardrails=[{"output_format": "markdown"}, {"max_length": 10000}]
 		)
   
 	@task
@@ -154,7 +154,7 @@ class VidmarpestelCrew():
 		return Task(
 			config=self.tasks_config['legal_analysis'],
 			output_file='legal_agent.md',
-			guardrails=[{"output_format": "markdown"}, {"max_length": 20000}]
+			guardrails=[{"output_format": "markdown"}, {"max_length": 10000}]
 		)
 
 
