@@ -5,7 +5,7 @@ import openai
 from dotenv import load_dotenv
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crewai_tools import SerperDevTool, ScrapeWebsiteTool, ScrapeElementFromWebsiteTool
+from crewai_tools import (SerperDevTool, ScrapeWebsiteTool, ScrapeElementFromWebsiteTool)
 from langchain_openai import ChatOpenAI
 
 # from vidmarpestel.my_llm import MyLLM
